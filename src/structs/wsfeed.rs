@@ -45,7 +45,7 @@ pub enum ChannelType {
     Heartbeat,
     Status,
     Ticker,
-    #[serde(rename = "ticker_1000")]
+    #[serde(rename = "ticker_batch")]
     TickerBatch,
     Level2,
     Matches,
